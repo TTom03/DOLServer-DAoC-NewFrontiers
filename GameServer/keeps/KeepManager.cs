@@ -518,7 +518,7 @@ namespace DOL.GS.Keeps
 				// Border keeps, Temples & Villages
 				// Villages are keeps, because player can teleport there via Warmap
 				if (keep.Name.Contains("dagda", StringComparison.OrdinalIgnoreCase) ||
-					keep.Name.Contains("lamfotha", StringComparison.OrdinalIgnoreCase) ||
+					keep.Name.Contains("lamfhota", StringComparison.OrdinalIgnoreCase) ||
 					keep.Name.Contains("grallarhorn", StringComparison.OrdinalIgnoreCase) ||
 					keep.Name.Contains("mjollner", StringComparison.OrdinalIgnoreCase) ||
 					keep.Name.Contains("myrddin", StringComparison.OrdinalIgnoreCase) ||

@@ -2194,7 +2194,7 @@ namespace DOL.GS.Spells
 
 			ECSGameSpellEffect effect = CreateECSEffect(new(target, CalculateEffectDuration(target), CalculateBuffDebuffEffectiveness(), this));
 
-			if (PulseEffect != null)
+			if (PulseEffect != null && effect.IsStarting)
 				PulseEffect.ChildEffects[target] = effect;
 		}
 		
